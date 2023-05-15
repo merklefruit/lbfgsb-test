@@ -1,0 +1,3 @@
+[submodule "L-BFGS-B-C"]
+	path = lbfgsb-crate/lib
+	url = https://github.com/stephenbeckr/L-BFGS-B-C.git

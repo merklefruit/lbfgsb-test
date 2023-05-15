@@ -1,0 +1,15 @@
+# [[file:~/Workspace/Programming/rust-libs/l-bfgs-b-c/lbfgsb.note::*cargo][cargo:1]]
+[package]
+name = "lbfgsb"
+edition = "2018"
+version = "0.0.2"
+authors = ["Wenping Guo <ybyygu@gmail.com>"]
+
+[dependencies]
+anyhow = "1"
+vecfx = {version="0.1"}
+
+[build-dependencies]
+cc = "1"
+bindgen = "0.54"
+
